@@ -1,29 +1,73 @@
 # Dynazme
 
-> Premium AI Engineering for Thai Enterprises.
-
-We build production-grade AI systems for Thai businesses — Thai-language RAG, document intelligence, workflow automation, and BI agents.
+> **AI ที่สร้างเพื่อช่วยธุรกิจไทยจริงๆ — ไม่ใช่ tech demo**
 
 ---
 
 ## Status
 
-🚧 **Currently in active development.**
+🚧 **กำลังพัฒนา — และเรากำลังฟังก่อนสร้าง**
 
-This repository is a public placeholder. The implementation source code, internal documentation, customer work, and proprietary algorithms live in a private repository and are **not** open source.
-
-Commits and progress here reflect ongoing development activity. Source code is intentionally not published.
-
----
-
-## What we do
-
-See [PRODUCTS.md](./PRODUCTS.md) for the four product lines we deliver to Thai SMEs and enterprises.
-
-## Get in touch
-
-See [CONTACT.md](./CONTACT.md).
+Repo นี้เป็น public placeholder สำหรับสื่อสารกับลูกค้าและพันธมิตร  
+Source code อยู่ใน private repo ไม่เปิดเผย
 
 ---
 
-© Dynazme — All Rights Reserved. See [LICENSE](./LICENSE).
+## ทำไมถึงมี Dynazme
+
+เริ่มจากโพสต์ในกลุ่ม Facebook ผู้ประกอบการไทย — เห็นปัญหาเดิมๆ ซ้ำๆ ในธุรกิจไทย:
+
+- เซลส์ตอบลูกค้าคำถามเดิมๆ ทั้งวัน เสียเวลาทำงานสำคัญ
+- ใบเสนอราคาทำมือ 1 ใบใช้เวลาครึ่งวัน
+- เอกสาร PDF/Word ในบริษัทเป็นพันๆ ไฟล์ — ไม่มีใครหาเจอ
+- พนักงานใหม่ใช้เวลา 3 เดือนกว่าจะเรียนรู้ระบบ
+- AI ในตลาดส่วนใหญ่ — แพง, ใช้ภาษาอังกฤษ, ไม่เข้าใจบริบทไทย
+
+**Dynazme ตั้งใจสร้างเพื่อแก้ปัญหาเหล่านี้** ในราคาที่ SME ไทยจ่ายไหว
+
+---
+
+## เราทำผลิตภัณฑ์อะไร
+
+ดู [PRODUCTS.md](./PRODUCTS.md) — สรุปสั้นๆ คือ AI Engineering ที่ออกแบบเพื่อ pain point ของธุรกิจไทย:
+
+- **RAG ภาษาไทย** — ค้นหา/ตอบคำถามจากเอกสารบริษัท
+- **OCR เอกสารไทย** — ดึงข้อมูลจากใบเสร็จ ใบกำกับภาษี ฟอร์ม
+- **BI Auto-Deck** — Data → presentation อัตโนมัติ
+- **AI Workflow Automation** — เชื่อม LINE OA, Email, Sheets เป็น flow เดียว
+
+ทั้ง 4 ออกแบบให้ทำงานร่วมกันได้ ไม่ใช่ chatbot แยกๆ
+
+---
+
+## เราต้องการอะไรจากคุณ
+
+ก่อน build อะไรเพิ่ม **เราอยากฟังจากคุณก่อน**:
+
+- ธุรกิจคุณติดอะไรอยู่?
+- งานอะไรที่คุณทำซ้ำๆ ทุกวันแล้วเสียเวลามาก?
+- เคยลอง AI/automation อะไรมาแล้ว — อันไหนใช้ได้ อันไหนไม่ได้?
+- งบประมาณที่จ่ายไหวสำหรับเครื่องมือ AI ในธุรกิจคุณเป็นเท่าไร?
+
+ดู [DISCOVERY.md](./DISCOVERY.md) สำหรับคำถามเต็ม + วิธีคุยกับเรา
+
+---
+
+## ปรัชญาราคา
+
+ที่ผ่านมา AI tools ในตลาด:
+
+- **ของต่างประเทศ**: เริ่ม $50/seat/เดือน — แพงไปสำหรับ SME ไทย
+- **ที่ปรึกษาไทยรายใหญ่**: setup fee เริ่ม 500K+ — แค่บริษัทใหญ่จ่ายไหว
+
+**Dynazme ตั้งใจให้ราคาเข้าถึงได้** สำหรับ SME — แต่ราคาจริงเรากำหนดหลังคุยกับคุณ เพราะอยากเข้าใจ context จริงก่อน ไม่ใช่ตั้งราคาแบบ one-size-fits-all
+
+---
+
+## ติดต่อ
+
+[CONTACT.md](./CONTACT.md)
+
+---
+
+© 2026 Dynazme — All Rights Reserved. ดู [LICENSE](./LICENSE)

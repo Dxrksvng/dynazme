@@ -1,43 +1,83 @@
 # Products
 
-Dynazme delivers four AI engineering product lines, all designed for Thai-language and Thai-business contexts.
+Dynazme กำลังพัฒนา 4 product line — ทุกตัวออกแบบเพื่อปัญหาจริงของธุรกิจไทย
+
+ทุกผลิตภัณฑ์ยังอยู่ใน active development — pricing สุดท้ายจะกำหนดหลังคุยกับลูกค้าจริงผ่าน [DISCOVERY](./DISCOVERY.md)
 
 ---
 
-## 1. FahMai — Thai-First RAG
+## 1. FahMai — RAG ภาษาไทย
 
-Production-grade Retrieval-Augmented Generation for Thai documents and knowledge bases. Hybrid retrieval with anti-hallucination safeguards.
+ระบบค้นหา + ตอบคำถามจากเอกสารบริษัทเป็นภาษาไทย ใช้ AI ที่เข้าใจบริบทไทย ไม่ใช่แค่แปลฝรั่งมาใช้
 
-**For**: Customer support automation, internal knowledge search, regulatory Q&A.
+**ปัญหาที่เจอบ่อย**:
+
+- ทีมตอบคำถามเดิมๆ ของลูกค้าวันละหลายสิบรอบ
+- พนักงานหา policy/SOP ในเอกสารบริษัทไม่เจอ
+- พนักงานใหม่ใช้เวลา 3 เดือนกว่าจะเรียนรู้ความรู้ในบริษัท
+- AI tools ฝรั่ง (ChatGPT, Claude) ตอบคำถามทั่วไปได้ดี แต่ไม่รู้เรื่องในบริษัทเรา
+
+**ใครได้ประโยชน์**: ทีมลูกค้าสัมพันธ์, HR, ทีมที่มีเอกสาร/policy เยอะ
 
 ---
 
-## 2. BI Agent — From Data to Deck
+## 2. BI Agent — สรุป Data → สไลด์อัตโนมัติ
 
-Turn raw business data into executive-ready presentations. Statistical analysis, automated narrative, and slide generation in one pipeline.
+จาก raw data (CSV, Excel) → presentation พร้อมส่งผู้บริหารในไม่กี่นาที
 
-**For**: Analyst teams, consulting workflows, monthly reporting.
+**ปัญหาที่เจอบ่อย**:
+
+- นักวิเคราะห์ทำ monthly report ใช้เวลา 2-3 วัน
+- สไลด์ที่ทำ รูปสวยแต่ insight ไม่เห็นจริง
+- Marketing ทำ deck ขายลูกค้า — ทุกครั้งเริ่มจาก 0
+- ผู้บริหารต้องการ insight แต่ทีม data ทำได้ทีละชั่วโมง
+
+**ใครได้ประโยชน์**: ทีม analyst, consulting, marketing, finance ที่ทำ report ประจำ
 
 ---
 
-## 3. DocuSense — Thai Document OCR
+## 3. DocuSense — OCR เอกสารไทย
 
-Extract structured data from scanned Thai documents — exam papers, application forms, invoices, receipts. Robust to rotation, noise, and mixed Thai/English.
+ดึงข้อมูลจากเอกสาร scanned ไทย — ใบเสร็จ, ใบกำกับภาษี, ใบสมัคร, แบบฟอร์ม รวมถึงภาพถ่ายเอกสารที่เอียง/พื้นหลังรก
 
-**For**: Form digitization, examination scoring, document automation pipelines.
+**ปัญหาที่เจอบ่อย**:
+
+- ฝ่ายบัญชี key-in ใบเสร็จเข้า Excel เปลืองเวลา + พิมพ์ผิด
+- HR ต้องอ่าน resume เป็นร้อยใบ — หา candidate ที่ตรงสเปคเสียเวลา
+- บริษัทอยาก digitize เอกสารเก่า 10 ปี แต่ outsource ราคาแพง
+- OCR ทั่วไปอ่านภาษาไทยได้ไม่ดี โดยเฉพาะลายมือ
+
+**ใครได้ประโยชน์**: ฝ่ายบัญชี, HR, บริษัทที่ต้อง process เอกสารกระดาษเยอะ
 
 ---
 
 ## 4. FlowForge — AI Automation
 
-End-to-end automation that combines document intelligence, retrieval, and presentation generation into a single workflow. Connects to LINE OA, email, and existing back-office systems.
+รวม 3 อย่างข้างบนเข้าเป็น workflow เดียว — เชื่อมกับ LINE OA, Email, Google Sheets, ระบบที่ใช้อยู่
 
-**For**: Healthcare, finance, and operations teams that need AI in the workflow, not just a chatbot.
+**ปัญหาที่เจอบ่อย**:
+
+- AI tools แต่ละตัวไม่คุยกัน → ทีม copy-paste ระหว่างระบบทั้งวัน
+- อยาก automate end-to-end แต่ต้องจ้างคน/เครื่องมือหลายอย่างมาต่อกัน
+- LINE OA ของบริษัทเป็นแค่ chatbot — ไม่ได้เชื่อมกับ ERP/Sheets
+- งานที่ควรอัตโนมัติได้ — ยังต้องคนทำมือ
+
+**ใครได้ประโยชน์**: SME, ธุรกิจ healthcare, finance, e-commerce ที่อยากให้ AI อยู่ใน workflow จริง ไม่ใช่แค่หน้าจอ chatbot
 
 ---
 
-## How we work
+## ปรัชญาในการตั้งราคา
 
-Every engagement starts with a discovery call. We don't build until we understand the customer's actual workflow, success criteria, and constraints.
+เราจะไม่ตั้งราคาก่อนคุยกับคุณ เพราะ:
 
-To start a conversation, see [CONTACT.md](../CONTACT.md).
+- ระบบของแต่ละธุรกิจไม่เหมือนกัน
+- งบประมาณ SME ไทยกับ enterprise ต่างกัน 10-100 เท่า
+- ต้นทุนเวลาของแต่ละทีมไม่เท่ากัน
+
+**สิ่งที่เราต้องการรู้ก่อน**:
+
+1. ระบบที่คุณใช้อยู่จ่ายเท่าไรต่อเดือน?
+2. เวลาที่ทีมเสียกับงานซ้ำๆ คิดเป็นต้นทุนเท่าไร?
+3. ROI แบบไหนที่คุณรับได้?
+
+ดู [DISCOVERY.md](./DISCOVERY.md) สำหรับวิธีคุยกัน — เริ่มฟรี, 30 นาที, ไม่มีการขาย
