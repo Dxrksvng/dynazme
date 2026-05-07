@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://github.com/Dxrksvng/dynazme/issues" },
+    { "pattern": "^https://github.com/Dxrksvng/dynazme/discussions" },
+    { "pattern": "^mailto:" }
+  ],
+  "timeout": "10s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206, 301, 302, 308, 403, 429]
+}
