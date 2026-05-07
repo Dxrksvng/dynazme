@@ -1,13 +1,11 @@
 # Contact
 
-For project inquiries, partnerships, or a discovery call:
-
 **Email**: dxrksvng@gmail.com
 
-**Founder**: Nattakamon Jaimetha (Je) — AI Engineer, Founder of Dynazme.
+**Founder**: Nattakamon Jaimetha (Je) — AI Engineer, Founder of Dynazme
 
 ---
 
-We respond within one business day.
+ถ้าธุรกิจคุณมี pain point ที่อยากให้ AI ช่วย — ส่งมาคุยกันได้ครับ ฟรี ไม่มีการขาย
 
-We are based in Thailand and primarily serve Thai SMEs and enterprises. Engagements are conducted in Thai or English.
+We respond within one business day. Engagements are conducted in Thai or English.
