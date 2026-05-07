@@ -1,0 +1,23 @@
+# --- PRIVATE: implementation lives in a separate private repo ---
+dynazme-impl/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local Claude config
+.claude/
+CLAUDE.local.md
+.scratch/
+
+# Env (defense-in-depth — not used here, but block anyway)
+.env
+.env.*
+!.env.example
