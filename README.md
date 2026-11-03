@@ -1,4 +1,16 @@
+<div align="center">
+
 # Dynazme
+
+**AI engineering for Thai SMEs.**
+
+![Status in development](https://img.shields.io/badge/Status-in_development-F59E0B?style=for-the-badge) ![Market Thailand](https://img.shields.io/badge/Market-Thailand-A51931?style=for-the-badge) ![Language Thai-first](https://img.shields.io/badge/Language-Thai--first-2ea44f?style=for-the-badge) ![License All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-lightgrey?style=for-the-badge)
+
+</div>
+
+> Public placeholder repository. Source code, customer work and internal planning live in a private repository.
+
+---
 
 > AI engineering for Thai SMEs.
 
