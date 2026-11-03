@@ -10,22 +10,6 @@
 
 > Public placeholder repository. Source code, customer work and internal planning live in a private repository.
 
-## Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,docker&perline=10" alt="Tech stack" />
-</p>
-
-## Product lines
-
-```mermaid
-flowchart TB
-    D(["Dynazme\nAI for Thai SMEs"]) --> F["FahMai\nThai-first RAG\nsearch and Q&A over Thai documents"]
-    D --> B["BI Agent\ndata to executive-ready deck"]
-    D --> S["DocuSense\nOCR for Thai receipts, forms, invoices"]
-    D --> W["FlowForge\nworkflow automation\nLINE OA, Email, Sheets, back-office"]
-```
-
 ---
 
 > AI engineering for Thai SMEs.
